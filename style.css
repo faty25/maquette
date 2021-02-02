@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+h1 {
+    font-size: 2.6rem;
+}
+h2 {
+    font-size: 4.8rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4, h5{
+    font-size: 2.8;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    font-size: 2rem;
+}
+/* HEADER */
+.main-head{
+    background-color: black;
+    color: white;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#logo{
+    flex: 2 1 40rem;
+    font-family: "Pacifico", cursive;
+    font-weight: normal;
+}
+body{
+    font-family: Lucida Sans;
+}
+header .logo h2{
+    font-size: 35px;
+}
+ /* HERO */
+ .hero{
+     min-height: 90vh;
+     background: linear-gradient(rgb(0,0,0,0.5), transparent),url(BackgroundImage.png);
+     background-size: cover;
+     background-position: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .hero h3{
+     padding: 4rem;
+ }
+button{
+    padding: 2rem 6rem;
+    background: orange;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+}
+    
+    @media screen and (max-width: 885px){
+        text-align: center;
+    }
+    #logo{
+        padding: 2rem;
+    }
+}
+.heros{
+    min-height: 10vh;
+    background: url(Map.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.boss{
+    min-height: 90vh;
+    background: url(Background.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bosse{
+    min-height: 150vh;
+    background: url(Map.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header section p{
+    float: right;
+}
+.flottes{
+    float: left;
+}
+.bon{
+    min-height: 90vh;
+    background: url(Background.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tot{
+    min-height: 5vh;
+    background: url(Map.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toujour{
+    min-height: 90vh;
+    background: url(ctcimage.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header section ul{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+.txtb input,.txtb textarea{
+width: 100%;
+border: none;
+background: white;
+outline: none;
+font-size: 18px;
+margin-top: 5px;
+}
+.paragraph-right{
+    float: left;
+}
+
+figure{
+    float: right;
+    width: 90%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.circle{
+    margin:10px;
+    width:150px;
+    border: 3px beige ridge;
+    background:orange;
+    height:150px;
+    text-align:center;
+    border-radius:100px;
+    <strong>line-height: 90px; /* 100 - 10 */</strong>
+}
+.ronde{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
